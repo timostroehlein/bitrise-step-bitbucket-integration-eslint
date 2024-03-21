@@ -71,6 +71,14 @@ inputs:
         Bitbucket server url, must be ending with a '/' example: https://bitbucket.company.com/
       is_expand: true
       is_required: true
+  - BITBUCKET_SERVER_TOKEN:
+    opts:
+      title: "Bitbucket server token"
+      description: |
+        Bitbucket server access token used to authenticate
+      is_expand: true
+      is_required: true
+      is_sensitive: true
   - PROJECT_ID:
     opts:
       title: "The Key of the Bitbucket Project"
